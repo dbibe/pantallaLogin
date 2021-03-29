@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #6930c3, #b8b5ff);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 60px 1fr 100px;
+    grid-gap: 2px;
+    grid-template-areas: "h h h h h h h h h h h h" ". . . . l l l l . . . ." "f f f f f f f f f f f f";
+}
+
+.header {
+    grid-area: h;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: light;
+    margin: 1vh 0vw 0vh 3vw;
+}
+
+.backHome {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.backHome input {
+    width: 2vw;
+    height: 4vh;
+    margin-right: 10px;
+}
+
+.login {
+    grid-area: l;
+    height: 90vh;
+    background-color: white;
+    align-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.insideLogin {
+    padding: 4vh 3vw 4vh 4vh;
+}
+
+.insideLogin h1 {
+    font-size: 35px;
+    margin: 2vh 0vw 4vh 0vw;
+}
+
+.emailPass,
+.Checkbox {
+    font-family: 'Roboto', sans-serif;
+    color: #aaaaaa;
+}
+
+.emailPass input {
+    width: 100%;
+    height: 7vh;
+    background-color: #eeeded;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.Email {
+    margin: 0px 0px 35px 0px;
+}
+
+.Password {
+    margin: 0px 0px 35px 0px;
+}
+
+.Checkbox {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 0px 0px 35px 0px;
+}
+
+.Checkbox input {
+    width: 3vw;
+    height: 3vh;
+}
+
+.Checkbox p {
+    margin: 1vh 0vw 0vh 0vw;
+}
+
+.textPass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Button button {
+    background-color: #42e6a4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.08), 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+    height: 7vh;
+    font-family: 'Roboto', sans-serif;
+    color: #1e6f5c;
+    font-size: 20px;
+    margin: 0px 0px 35px 0px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #aaaaaa;
+}
+
+.text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #eeeded;
+    margin: 0px 0px 35px 0px;
+}
+
+#or {
+    margin: -21px 0px 0px 0px;
+    color: #aaaaaa;
+}
+
+.loginGoogle button {
+    margin: 35px 0px 0px 0px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    color: #aaaaaa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    height: 7vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0
+}
+
+.loginGoogle img {
+    width: 2.5vw;
+    height: 4.5vh;
+    margin: -1vh 0vw -3vh 3vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    grid-area: f;
+    text-align: center;
+    font-weight: 100;
+}
+
+#copyright {
+    color: #eeeded;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eeeded;
+}
+
+.account a {
+    text-decoration: none;
+}
+
+#space {
+    width: 10px;
+}
